@@ -1,5 +1,10 @@
 package org.example;
 
+
+import org.example.dto.Car;
+import org.springframework.stereotype.Component;
+
+@Component
 public class HatchBackProductionLine implements ProductionLine {
     @Override
     public Car work() {
